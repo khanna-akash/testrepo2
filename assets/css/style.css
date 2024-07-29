@@ -39,10 +39,9 @@ main {
     min-height: 100vh;
 }
 
-.image {
-    background-color: white;
-    height: 100px;
-    width: 100px;
+.main-item {
+    padding: 3rem 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* -------- footer -------- */
@@ -70,6 +69,9 @@ footer {
     padding: 6rem;
 }
 
+.image {
+    margin: 2rem auto;
+}
 /* ---------------------------------------- LINKS ---------------------------------------- */
 
 .navbar a:hover , .navbar-nav a:hover{
