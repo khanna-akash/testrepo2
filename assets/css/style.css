@@ -1,3 +1,62 @@
-body {
-    background-color: green;
+
+.navigation {
+    background-color: #2C3E50;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    height: 100vh;
+    padding-top: 58px;
+    background-color: #829AB1;
+}
+
+.london-main {
+    background-color: #45818E;
+}
+
+.oxford-main {
+    background-color: #D9A798;
+}
+
+.birmingham-main {
+    background-color: #E27A52;
+}
+
+.footer {
+    background-color: #2C3E50;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo {
+    margin-bottom: 0;
+}
+
+.social {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.social li a {
+    color: #fff;
+    padding: 0.5em;
 }
