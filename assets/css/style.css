@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-/* ---------------------------------------- GENERAL --------------------------------------- */
+/* -------------------------------------- GENERAL / HOME ------------------------------------- */
+
 body {
     font-family: "Saira Condensed", sans-serif;
     font-weight: 400;
@@ -13,30 +14,34 @@ body {
 
 .body-home {
     background: url('../images/image.jpg') no-repeat center center/cover;
-}
-
-main {
-    padding-top: 20px;
-    height: 100vh;
+    background-attachment: fixed;
 }
 
 /* -------- header -------- */
+
 header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.0) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0.0) 100%);
     color: white;
 }
 
-header a {
+.header a {
     color: white;
+}
+
+/* -------- main -------- */
+
+main {
+    padding-top: 3.5rem;
+    min-height: 100vh;
 }
 
 /* -------- footer -------- */
 footer {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.0) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.0) 100%);
     color: white;
     position: relative;
 }
@@ -47,10 +52,28 @@ footer {
     font-weight: 200;
 }
 
-/* ---------------------------------------- LINKS --------------------------------------- */
+.active-custom {
+    border-bottom: 2px solid white;;
+}
+
+.welcome-message {
+    margin: 200px;
+}
+
+.pd-md-6-custom {
+    padding: 6rem;
+}
+
+/* ---------------------------------------- LINKS ---------------------------------------- */
 
 .navbar a:hover , .navbar-nav a:hover{
     color:wheat;
 }
 
 /* ---------------------------------------- OXFORD --------------------------------------- */
+
+.body-oxford {
+    background: url('../images/oxford.webp') no-repeat center center/cover;
+    background-attachment: fixed;
+    color: white;
+}
