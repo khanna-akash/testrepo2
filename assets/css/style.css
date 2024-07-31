@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* -------------------------------------- GENERAL / HOME ------------------------------------- */
@@ -20,7 +22,7 @@ body {
 
 /* -------- header -------- */
 
-header {
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -44,13 +46,15 @@ main {
 }
 
 .main-item {
-    margin: 5px 0;
     padding: 2rem 2rem;
     background-color: rgba(0, 0, 0, 0.45);
 }
 
-.welcome-message {
-    margin: 30vh auto;
+.welcome-message-oxford {
+    margin: 25vh auto;
+    background-color: rgba(255, 193, 7, 0.8);
+    text-shadow: 1px 1px 1.5px black;
+    padding: 3%;
 }
 
 .c-margin {
@@ -72,7 +76,6 @@ footer {
 
 .active-custom {
     border-bottom: 2px solid white;
-    ;
 }
 
 .bg-dropdown-custom {
@@ -83,7 +86,7 @@ footer {
     margin: 3px;
 }
 
-.mt-200px-custom {
+.mt-15vh-custom {
     margin-top: 15vh;
 }
 
